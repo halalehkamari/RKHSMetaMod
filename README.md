@@ -3,9 +3,13 @@
 # Example:
 d <- 3
 n <- 50
+
 nT <- 50
+
 nnew <- 200
+
 library(lhs)
+
 library(RKHSMetaMod)
 X <- maximinLHS(n, d)
 XT <- maximinLHS(nT, d)
